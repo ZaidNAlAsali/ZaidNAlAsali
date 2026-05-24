@@ -51,6 +51,11 @@ What this project demonstrates:
 **Languages:** JavaScript, TypeScript, Python, C++, SQL  
 **Engineering practice:** Git, GitHub, ESLint, SEO, responsive design, performance checks, deployment polish
 
+## Certifications
+
+- NVIDIA Deep Learning Fundamentals
+- NVIDIA Generative AI with Diffusion Models
+
 ## Why Clients Should Care
 
 My strongest advantage is the combination of automation logic and web development.
