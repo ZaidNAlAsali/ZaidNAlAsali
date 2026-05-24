@@ -1,6 +1,6 @@
 # Hi, I'm Zaid AlAsali
 
-Full-Stack Developer and AI Automation Developer focused on practical business workflows, client-facing web experiences, APIs, and web performance. Computer Science student at the University of Debrecen, building polished web work at Different Design and moving deeper into automation systems for Upwork and client projects.
+Full-Stack Developer and AI Automation Developer with 3+ years of hands-on development experience, focused on practical business workflows, client-facing web experiences, APIs, and web performance. Computer Science student at the University of Debrecen, building polished web work at Different Design and moving deeper into automation systems for Upwork and client projects.
 
 [Different Design](https://differentdesign.pro) | [LinkedIn](https://www.linkedin.com/in/zaidalasali/) | [Email](mailto:ZaidNaderAlAsali@outlook.com)
 
@@ -66,7 +66,7 @@ I focus on clear systems that are useful, maintainable, and easy to explain.
 
 ## Work With Me
 
-I am open to junior software engineering, full-stack development, AI automation, web performance, and workflow integration work.
+I am open to full-stack development, AI automation, web performance, and workflow integration work.
 
 Good fits:
 
