@@ -40,7 +40,7 @@
 
   <g transform="translate(765 52)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M44 44H142L198 99H296" stroke="url(#signal)" stroke-width="2.5"/>
-    <path d="M44 153H111L164 99" stroke="#68D5C4" stroke-opacity="0.75" stroke-width="2"/>
+    <path d="M44 153H111L164 99H198" stroke="#68D5C4" stroke-opacity="0.75" stroke-width="2"/>
     <path d="M198 99L242 153H340" stroke="#F1C56A" stroke-opacity="0.72" stroke-width="2"/>
     <path d="M142 44L198 18H326" stroke="#4F8CFF" stroke-opacity="0.62" stroke-width="2"/>
 
