@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Zaid AlAsali, Software Engineer</title>
+  <description id="description">Full-stack applications, internal tools, and AI integrations.</description>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091426"/>
+      <stop offset="1" stop-color="#102B45"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F8CFF"/>
+      <stop offset="0.55" stop-color="#68D5C4"/>
+      <stop offset="1" stop-color="#F1C56A"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#B9D5E8" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <path d="M0 252C170 215 308 277 470 240S765 205 918 234s190 20 282-8v74H0Z" fill="#4F8CFF" fill-opacity="0.06"/>
+
+  <g transform="translate(58 55)">
+    <rect width="8" height="52" rx="4" fill="#4F8CFF"/>
+    <rect y="62" width="8" height="27" rx="4" fill="#68D5C4"/>
+    <rect y="99" width="8" height="12" rx="4" fill="#F1C56A"/>
+    <text x="31" y="25" fill="#91B4D1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">SOFTWARE ENGINEER</text>
+    <text x="29" y="82" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="760" letter-spacing="-1.5">ZAID ALASALI</text>
+    <text x="31" y="121" fill="#C9D9E5" font-family="Segoe UI, Arial, sans-serif" font-size="19">Full-stack applications · Internal tools · AI integrations</text>
+    <g transform="translate(31 151)">
+      <rect width="303" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.07" stroke="#B9D5E8" stroke-opacity="0.22"/>
+      <circle cx="18" cy="16" r="4" fill="#68D5C4"/>
+      <text x="32" y="21" fill="#BFD1DE" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.6">CONTEXT FIRST · EVIDENCE VISIBLE</text>
+    </g>
+  </g>
+
+  <g transform="translate(765 52)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 44H142L198 99H296" stroke="url(#signal)" stroke-width="2.5"/>
+    <path d="M44 153H111L164 99" stroke="#68D5C4" stroke-opacity="0.75" stroke-width="2"/>
+    <path d="M198 99L242 153H340" stroke="#F1C56A" stroke-opacity="0.72" stroke-width="2"/>
+    <path d="M142 44L198 18H326" stroke="#4F8CFF" stroke-opacity="0.62" stroke-width="2"/>
+
+    <g filter="url(#glow)">
+      <circle cx="44" cy="44" r="8" fill="#4F8CFF" stroke="#A9C5FF"/>
+      <circle cx="44" cy="153" r="8" fill="#68D5C4" stroke="#C5F6EE"/>
+      <circle cx="198" cy="99" r="10" fill="#FFFFFF" stroke="#68D5C4" stroke-width="3"/>
+      <circle cx="296" cy="99" r="8" fill="#4F8CFF" stroke="#A9C5FF"/>
+      <circle cx="340" cy="153" r="8" fill="#F1C56A" stroke="#FFF0B6"/>
+      <circle cx="326" cy="18" r="8" fill="#68D5C4" stroke="#C5F6EE"/>
+    </g>
+
+    <g fill="#C9D9E5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" letter-spacing="1.2" stroke="none">
+      <text x="19" y="26">INTERFACE</text>
+      <text x="19" y="181">CONTEXT</text>
+      <text x="174" y="129">API</text>
+      <text x="274" y="82">DATA</text>
+      <text x="315" y="181">DELIVERY</text>
+      <text x="300" y="48">AI</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#9FC4DB" stroke-opacity="0.18" stroke-width="2"/>
+</svg>

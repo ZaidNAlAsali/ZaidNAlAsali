@@ -1,85 +1,81 @@
-# Hi, I'm Zaid AlAsali
+<p align="center">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Zaid AlAsali, Software Engineer" />
+</p>
 
-Full-Stack Developer and AI Automation Developer with 3+ years of hands-on development experience, focused on practical business workflows, client-facing web experiences, APIs, and web performance. Computer Science student at the University of Debrecen, building polished web work at Different Design and moving deeper into automation systems for Upwork and client projects.
+<p align="center">
+  <a href="https://differentdesign.pro/">Selected work</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/zaidalasali/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:ZaidNaderAlAsali@outlook.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ZaidNAlAsali?tab=repositories">Repositories</a>
+</p>
 
-[Different Design](https://differentdesign.pro) | [LinkedIn](https://www.linkedin.com/in/zaidalasali/) | [Email](mailto:ZaidNaderAlAsali@outlook.com)
+## I build software that holds up beyond the demo.
 
-## What I Build
+I am a software engineer and 2026 Computer Science graduate focused on full-stack applications, internal tools, and AI-integrated workflows. I work across product UI, APIs, data, automation, testing, and delivery, with production experience supporting organizations in Jordan and the UAE.
 
-I help turn scattered business processes into cleaner systems: websites, forms, dashboards, CRMs, spreadsheets, webhooks, APIs, and AI-assisted workflows that actually connect.
+My strongest work combines a clear user experience with careful engineering boundaries: human review around AI recommendations, local-first desktop safety, measurable performance, and verification that another engineer can reproduce.
 
-### AI Automation & Integrations
+Based in Debrecen, Hungary. Native Arabic speaker with C2 English proficiency. Open to full-time software engineering roles across the GCC and internationally.
 
-- Lead intake, qualification, routing, and follow-up workflows.
-- Make, n8n, Zapier, Airtable, Google Sheets, API, and webhook automations.
-- AI-assisted email, proposal, support, content, and reporting workflows.
-- Internal tools that connect forms, databases, notifications, dashboards, and summaries.
-- Clear documentation so the workflow is maintainable after handoff.
+## Featured engineering work
 
-### Web & Full-Stack Development
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ZaidNAlAsali/signaldesk">
+        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/signaldesk/main/docs/screenshots/signaldesk-dashboard.png" alt="SignalDesk bilingual human decision room" />
+      </a>
+      <h3><a href="https://github.com/ZaidNAlAsali/signaldesk">SignalDesk</a></h3>
+      <p>Bilingual English/Arabic operations decision console with policy-grounded AI triage, PII redaction, WebSocket updates, explicit human review, and tamper-evident audit history.</p>
+      <p><strong>Verified:</strong> 24 automated tests, 85.69% backend coverage, a 24-case bilingual regression suite, PostgreSQL Compose workflows, append-only database controls, and green CI.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Docker</code></p>
+      <p><a href="https://github.com/ZaidNAlAsali/signaldesk">Repository</a> · <a href="https://github.com/ZaidNAlAsali/signaldesk/releases/tag/v0.3.0">Release 0.3.0</a> · <a href="https://github.com/ZaidNAlAsali/signaldesk/actions">CI</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ZaidNAlAsali/filenest">
+        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/filenest/main/docs/screenshots/filenest-overview.png" alt="FileNest privacy-first Windows file organizer" />
+      </a>
+      <h3><a href="https://github.com/ZaidNAlAsali/filenest">FileNest</a></h3>
+      <p>Privacy-first Windows file organizer with selected-folder scanning, streaming BLAKE3 duplicate detection, FTS5 search, move-only cleanup plans, local journaling, and integrity-checked undo.</p>
+      <p><strong>Verified:</strong> 20 Rust tests, 8 frontend tests, green Windows CI, an install-tested NSIS release, and median scanner throughput of 5,042 files/second across five runs on 10,000 synthetic files.</p>
+      <p><code>Rust</code> <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>SQLite</code></p>
+      <p><a href="https://github.com/ZaidNAlAsali/filenest">Repository</a> · <a href="https://github.com/ZaidNAlAsali/filenest/releases/tag/v0.1.1">Release 0.1.1</a> · <a href="https://github.com/ZaidNAlAsali/filenest/actions">CI</a></p>
+    </td>
+  </tr>
+</table>
 
-- React, Vite, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML, and CSS.
-- Client-facing websites, landing pages, forms, dashboards, and workflow interfaces.
-- SEO metadata, responsive UI, deployment configuration, analytics, and performance polish.
-- Backend handoffs and integration work with REST APIs, Node.js, Flask, and structured data.
+## Production work
 
-### CS Foundations
+### [Different Design](https://differentdesign.pro/)
 
-- Python and C++ through coursework, problem solving, automation, and systems-oriented learning.
-- Git, GitHub, documentation, debugging, and maintainable project structure.
+Delivered a production React/Vite website end to end, covering frontend architecture, responsive UI, content and asset integration, deployment, domain configuration, documentation, and stakeholder handoff. Performance work included lazy loading, code splitting, tree shaking, and WebP assets, resulting in 95+ Lighthouse performance scores and an approximately 40% smaller bundle.
 
-## Strongest Proof
+## Engineering focus
 
-### Different Design
+| Product and interface | Backend and systems | AI and automation |
+| --- | --- | --- |
+| React, Next.js, Vite, TypeScript, responsive design, accessibility | Node.js, FastAPI, Flask, REST APIs, PostgreSQL, SQLite, WebSockets | Provider integrations, structured outputs, retrieval workflows, PII-aware boundaries |
+| Clear workflows, useful empty states, performance, handoff | Data modeling, migrations, auditability, recovery, failure handling | Human review, policy grounding, reproducible evaluation |
 
-[differentdesign.pro](https://differentdesign.pro) is the strongest example of my current web development work: a polished, client-facing creative studio website built with React, Vite, Tailwind CSS, Framer Motion, SEO metadata, analytics, deployment configuration, and image optimization workflows.
+**Additional tools:** Rust, C++, SQL, Docker, GitHub Actions, AWS EC2/S3, Linux, Jest, React Testing Library, Ruff, Pytest, Lighthouse.
 
-What this project demonstrates:
+## How I approach engineering
 
-- Component-based React application structure with reusable sections, modals, galleries, and shared UI pieces.
-- Production-oriented Vite setup with code splitting, minification, cache-conscious build output, and deployment configs.
-- SEO and sharing polish through canonical URLs, Open Graph metadata, structured data, and React Helmet support.
-- Performance-minded asset work, including WebP/image optimization scripts, gallery sync tooling, service worker registration, and Lighthouse configuration.
-- Client-facing polish: responsive design, animation, error boundaries, analytics, contact flow, and careful presentation of real creative work.
+1. **Understand the operating context.** Who makes the decision, what can fail, and what must remain recoverable?
+2. **Make boundaries visible.** AI recommends but does not silently approve. File tools plan moves but do not silently delete.
+3. **Ship evidence with the product.** Tests, CI, benchmarks, screenshots, release notes, and documented limitations are part of delivery.
+4. **Keep the interface human.** A technically correct system still fails if its workflow is confusing.
 
-## Tools I Work With
+## Currently
 
-**Automation:** Make, n8n, Zapier, Airtable, Google Sheets, webhooks, REST APIs  
-**AI workflows:** AI-assisted summaries, email drafts, proposal workflows, lead qualification, support workflows  
-**Frontend:** React, Vite, Next.js, Tailwind CSS, HTML, CSS, Framer Motion  
-**Backend and data:** Node.js, Flask, SQL, API integrations, structured data  
-**Languages:** JavaScript, TypeScript, Python, C++, SQL  
-**Engineering practice:** Git, GitHub, ESLint, SEO, responsive design, performance checks, deployment polish
+- Looking for full-time software engineering roles in the GCC and internationally.
+- Interested in full-stack product engineering, internal platforms, applied AI, developer tools, and systems with meaningful safety or reliability constraints.
+- Continuing to deepen my work in Rust, Python services, local-first software, and agent infrastructure.
 
-## Certifications
-
-- NVIDIA Deep Learning Fundamentals
-- NVIDIA Generative AI with Diffusion Models
-
-## Why Clients Should Care
-
-My strongest advantage is the combination of automation logic and web development.
-
-I can help with the workflow itself, but also the landing page, form, dashboard, or client-facing experience around it. That matters because many automations fail not because the tool is bad, but because the input, handoff, UI, or documentation is messy.
-
-I focus on clear systems that are useful, maintainable, and easy to explain.
-
-## Work With Me
-
-I am open to full-stack development, AI automation, web performance, and workflow integration work.
-
-Good fits:
-
-- A business wants to automate lead capture or follow-up.
-- A team needs Airtable, Google Sheets, CRM, API, or webhook cleanup.
-- A client needs a polished website plus the automation behind the form.
-- A workflow needs AI summaries, email drafts, proposal support, or internal reporting.
-- A project needs someone who can communicate clearly and document the system.
-
-## How To Read My GitHub
-
-Right now, my GitHub should be read through one clear anchor: Different Design.
-
-I would rather show one strong, defensible project than fill the page with weaker repositories. As I clean up more work, I plan to add selected projects that show automation/API workflows and Python or C++ foundations.
-
-I care about making work understandable. A strong project should show what it is, why it exists, how it is built, what is finished, and what I would improve next.
+<p align="center">
+  <strong>Let’s build something useful.</strong><br />
+  <a href="mailto:ZaidNaderAlAsali@outlook.com">ZaidNaderAlAsali@outlook.com</a>
+</p>
