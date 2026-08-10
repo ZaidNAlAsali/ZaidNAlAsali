@@ -3,24 +3,20 @@
 </p>
 
 <p align="center">
-  <a href="https://differentdesign.pro/">Selected work</a>
-  &nbsp;·&nbsp;
+  <a href="#selected-work">Selected work</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://differentdesign.pro/">Live client work</a>
+  &nbsp;&middot;&nbsp;
   <a href="https://www.linkedin.com/in/zaidalasali/">LinkedIn</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="mailto:ZaidNaderAlAsali@outlook.com">Email</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/ZaidNAlAsali?tab=repositories">Repositories</a>
 </p>
 
-## I build software that holds up beyond the demo.
+<p align="center"><strong>Computer Science graduate (2026) building full-stack and applied-AI products with explicit human review, reproducible tests, and live client delivery.</strong><br />Based in Debrecen, Hungary &middot; Native Arabic &middot; English C2 &middot; Open to junior software engineering roles in Saudi Arabia, across the GCC, and internationally</p>
 
-I am a software engineer and 2026 Computer Science graduate focused on full-stack applications, internal tools, and AI-integrated workflows. I work across product UI, APIs, data, automation, testing, and delivery, with production experience supporting organizations in Jordan and the UAE.
-
-My strongest work combines a clear user experience with careful engineering boundaries: human review around AI recommendations, local-first desktop safety, measurable performance, and verification that another engineer can reproduce.
-
-Based in Debrecen, Hungary. Native Arabic speaker with C2 English proficiency. Open to full-time software engineering roles across the GCC and internationally.
-
-## Featured engineering work
+## Selected work
 
 <table>
   <tr>
@@ -29,53 +25,50 @@ Based in Debrecen, Hungary. Native Arabic speaker with C2 English proficiency. O
         <img src="https://raw.githubusercontent.com/ZaidNAlAsali/signaldesk/main/docs/screenshots/signaldesk-dashboard.png" alt="SignalDesk bilingual human decision room" />
       </a>
       <h3><a href="https://github.com/ZaidNAlAsali/signaldesk">SignalDesk</a></h3>
-      <p>Bilingual English/Arabic operations decision console with policy-grounded AI triage, PII redaction, WebSocket updates, explicit human review, and tamper-evident audit history.</p>
-      <p><strong>Verified:</strong> 24 automated tests, 85.69% backend coverage, a 24-case bilingual regression suite, PostgreSQL Compose workflows, append-only database controls, and green CI.</p>
+      <p>Bilingual English/Arabic operations console for policy-grounded triage, with PII redaction, local retrieval, external-provider integration, explicit reviewer decisions, WebSocket updates, and hash-chained audit records. <strong>Portfolio demo; not publicly deployed.</strong></p>
+      <p><strong>Evidence:</strong> the linked <code>main</code> CI run passed 15 backend tests (86.73% coverage), 9 frontend tests, secret scanning, and PostgreSQL Compose; the <a href="https://github.com/ZaidNAlAsali/signaldesk/blob/main/services/api/eval/results/demo-evaluation.json">authored bilingual regression set</a> passes 24/24 cases.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Docker</code></p>
-      <p><a href="https://github.com/ZaidNAlAsali/signaldesk">Repository</a> · <a href="https://github.com/ZaidNAlAsali/signaldesk/releases/tag/v0.3.0">Release 0.3.0</a> · <a href="https://github.com/ZaidNAlAsali/signaldesk/actions">CI</a></p>
+      <p><a href="https://github.com/ZaidNAlAsali/signaldesk">Repository</a> &middot; <a href="https://github.com/ZaidNAlAsali/signaldesk/releases/tag/v0.3.0">Release 0.3.0</a> &middot; <a href="https://github.com/ZaidNAlAsali/signaldesk/actions/runs/29211319312">Verified main CI</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/ZaidNAlAsali/filenest">
-        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/filenest/main/docs/screenshots/filenest-overview.png" alt="FileNest privacy-first Windows file organizer" />
+      <a href="https://differentdesign.pro/">
+        <img src="https://differentdesign.pro/og-image.png" alt="Different Design creative studio website, Dubai" />
       </a>
-      <h3><a href="https://github.com/ZaidNAlAsali/filenest">FileNest</a></h3>
-      <p>Privacy-first Windows file organizer with selected-folder scanning, streaming BLAKE3 duplicate detection, FTS5 search, move-only cleanup plans, local journaling, and integrity-checked undo.</p>
-      <p><strong>Verified:</strong> 20 Rust tests, 8 frontend tests, green Windows CI, an install-tested NSIS release, and median scanner throughput of 5,042 files/second across five runs on 10,000 synthetic files.</p>
-      <p><code>Rust</code> <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>SQLite</code></p>
-      <p><a href="https://github.com/ZaidNAlAsali/filenest">Repository</a> · <a href="https://github.com/ZaidNAlAsali/filenest/releases/tag/v0.1.1">Release 0.1.1</a> · <a href="https://github.com/ZaidNAlAsali/filenest/actions">CI</a></p>
+      <h3><a href="https://differentdesign.pro/">Different Design</a> <small>Dubai, UAE</small></h3>
+      <p>Built and deployed the responsive site for a Dubai creative studio, including service presentation, a filterable 17-project gallery, studio and contact sections, and direct email, phone, and WhatsApp paths.</p>
+      <p><strong>Live evidence:</strong> the deployed site is public, responsive, and its metadata identifies <strong>Zaid Nader AlAsali</strong> as developer.</p>
+      <p><a href="https://differentdesign.pro/">Visit the live deployment</a></p>
     </td>
   </tr>
 </table>
 
-## Production work
+### [FileNest](https://github.com/ZaidNAlAsali/filenest)
 
-### [Different Design](https://differentdesign.pro/)
+<table>
+  <tr>
+    <td width="46%" valign="top">
+      <a href="https://github.com/ZaidNAlAsali/filenest">
+        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/filenest/main/docs/screenshots/filenest-overview.png" alt="FileNest privacy-first Windows file organizer" />
+      </a>
+    </td>
+    <td width="54%" valign="top">
+      <p>Windows-first local file organizer with selected-folder scanning, streaming BLAKE3 duplicate detection, FTS5 search, move-only cleanup plans, local journaling, and integrity-checked undo.</p>
+      <p><strong>Evidence:</strong> Windows CI passed 20 Rust tests and 8 frontend tests and built the NSIS installer; a <a href="https://github.com/ZaidNAlAsali/filenest/blob/main/docs/benchmarks/windows-10000.json">five-run synthetic scanner microbenchmark</a> measured a median 5,042.35 files/second over 10,000 generated files.</p>
+      <p><code>Rust</code> <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>SQLite</code></p>
+      <p><a href="https://github.com/ZaidNAlAsali/filenest">Repository</a> &middot; <a href="https://github.com/ZaidNAlAsali/filenest/releases/tag/v0.1.1">Unsigned Windows installer</a> &middot; <a href="https://github.com/ZaidNAlAsali/filenest/actions/runs/29206861576">Verified Windows CI</a></p>
+    </td>
+  </tr>
+</table>
 
-Delivered a production React/Vite website end to end, covering frontend architecture, responsive UI, content and asset integration, deployment, domain configuration, documentation, and stakeholder handoff. Performance work included lazy loading, code splitting, tree shaking, and WebP assets, resulting in 95+ Lighthouse performance scores and an approximately 40% smaller bundle.
+## Additional release work
 
-## Engineering focus
+**[ZFileConverter](https://github.com/ZaidNAlAsali/ZFileConverter)** — Modernized the [Tichau/FileConverter](https://github.com/Tichau/FileConverter) fork with a redesigned WPF interface and maintained Windows release workflow; the unsigned [v2.3.1 MSI](https://github.com/ZaidNAlAsali/ZFileConverter/releases/tag/v2.3.1) fixes Explorer and installer branding, and its [tagged Windows build](https://github.com/ZaidNAlAsali/ZFileConverter/actions/runs/29520416035) passed.
 
-| Product and interface | Backend and systems | AI and automation |
-| --- | --- | --- |
-| React, Next.js, Vite, TypeScript, responsive design, accessibility | Node.js, FastAPI, Flask, REST APIs, PostgreSQL, SQLite, WebSockets | Provider integrations, structured outputs, retrieval workflows, PII-aware boundaries |
-| Clear workflows, useful empty states, performance, handoff | Data modeling, migrations, auditability, recovery, failure handling | Human review, policy grounding, reproducible evaluation |
+## Core stack
 
-**Additional tools:** Rust, C++, SQL, Docker, GitHub Actions, AWS EC2/S3, Linux, Jest, React Testing Library, Ruff, Pytest, Lighthouse.
-
-## How I approach engineering
-
-1. **Understand the operating context.** Who makes the decision, what can fail, and what must remain recoverable?
-2. **Make boundaries visible.** AI recommends but does not silently approve. File tools plan moves but do not silently delete.
-3. **Ship evidence with the product.** Tests, CI, benchmarks, screenshots, release notes, and documented limitations are part of delivery.
-4. **Keep the interface human.** A technically correct system still fails if its workflow is confusing.
-
-## Currently
-
-- Looking for full-time software engineering roles in the GCC and internationally.
-- Interested in full-stack product engineering, internal platforms, applied AI, developer tools, and systems with meaningful safety or reliability constraints.
-- Continuing to deepen my work in Rust, Python services, local-first software, and agent infrastructure.
+TypeScript · React / Next.js / Vite · Python / FastAPI · PostgreSQL / SQLite · Docker · GitHub Actions · Rust / Tauri · C# / WPF
 
 <p align="center">
-  <strong>Let’s build something useful.</strong><br />
+  <strong>Let&rsquo;s build something useful.</strong><br />
   <a href="mailto:ZaidNaderAlAsali@outlook.com">ZaidNaderAlAsali@outlook.com</a>
 </p>
