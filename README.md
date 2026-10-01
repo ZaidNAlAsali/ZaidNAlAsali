@@ -13,12 +13,12 @@
 </p>
 
 <p align="center"><strong>Full-stack engineer who builds bilingual Arabic/English products, from the first spec to the signed installer.</strong><br />
-I use AI coding agents for speed and keep the judgment for myself: architecture, review and tests.<br />
+AI-native: I write the spec, own the architecture and direct coding agents like Claude Code and Codex, then prove the work with tests and CI.<br />
 Amman, Jordan &middot; Open to roles in Doha, Qatar and the GCC &middot; Available immediately</p>
 
 ## Keystone
 
-A school management system I designed and built in two weeks for a kindergarten in Amman, to replace the paid platform its office was using: enrollment, fees and installments, receipts, payroll and printed agreements, in Arabic and English with full right-to-left support.
+A school management system for a kindergarten in Amman, built to replace the paid platform its office was using: enrollment, fees and installments, receipts, payroll and printed agreements, in Arabic and English with full right-to-left support.
 
 <table>
   <tr>
@@ -27,8 +27,10 @@ A school management system I designed and built in two weeks for a kindergarten 
   </tr>
 </table>
 
+- **How I built it:** I audited the old platform feature by feature, wrote the spec and set the architecture, then directed Claude Code through the build. Two weeks from first commit to signed installer.
 - **Offline-first desktop app:** Next.js 16 and React 19 inside Electron, SQLite with versioned migrations, verified daily backups and Ed25519-signed updates.
 - **Money that always adds up:** amounts stored as integer fils, installments that sum exactly, and voided payments that keep their receipt number.
+- **Arabic done properly:** receipts and agreements write amounts in grammatically correct Arabic words, in full right-to-left layouts.
 - **Proof:** 188 automated tests, plus lint, type checks and a production build on every push in Windows CI.
 
 <details>
@@ -80,7 +82,9 @@ A school management system I designed and built in two weeks for a kindergarten 
 
 ## Core stack
 
-TypeScript · React / Next.js / Vite · Node.js · Python / FastAPI · C# / .NET / WPF · PostgreSQL / SQLite · Electron / Tauri · Docker · GitHub Actions · OpenAI, Claude and Gemini APIs
+**Build:** TypeScript · React / Next.js / Vite · Node.js · Python / FastAPI · C# / .NET / WPF · PostgreSQL / SQLite · Electron / Tauri · Docker · GitHub Actions
+
+**AI:** Claude Code and Codex (agentic coding) · OpenAI, Claude and Gemini APIs · RAG · structured outputs · evals
 
 ## Education and certifications
 
