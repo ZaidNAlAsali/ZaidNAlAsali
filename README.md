@@ -1,20 +1,43 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Zaid AlAsali, Software Engineer" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Zaid AlAsali, Full-Stack Software Engineer" />
 </p>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a>
+  <a href="#keystone">Keystone</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://differentdesign.pro/">Live client work</a>
+  <a href="#selected-work">Selected work</a>
   &nbsp;&middot;&nbsp;
   <a href="https://www.linkedin.com/in/zaidalasali/">LinkedIn</a>
   &nbsp;&middot;&nbsp;
   <a href="mailto:ZaidNaderAlAsali@outlook.com">Email</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://github.com/ZaidNAlAsali?tab=repositories">Repositories</a>
 </p>
 
-<p align="center"><strong>Computer Science graduate (2026) building full-stack and applied-AI products with explicit human review, reproducible tests, and live client delivery.</strong><br />Based in Debrecen, Hungary &middot; Native Arabic &middot; English C2 &middot; Open to junior software engineering roles in Saudi Arabia, across the GCC, and internationally</p>
+<p align="center"><strong>Full-stack engineer who builds bilingual Arabic/English products, from the first spec to the signed installer.</strong><br />
+I use AI coding agents for speed and keep the judgment for myself: architecture, review and tests.<br />
+Amman, Jordan &middot; Open to roles in Doha, Qatar and the GCC &middot; Available immediately</p>
+
+## Keystone
+
+A school management system I designed and built in two weeks for a kindergarten in Amman, to replace the paid platform its office was using: enrollment, fees and installments, receipts, payroll and printed agreements, in Arabic and English with full right-to-left support.
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><img src="./assets/keystone/dashboard.jpg" alt="Keystone dashboard in English" /></td>
+    <td width="50%" valign="top"><img src="./assets/keystone/arabic.jpg" alt="Keystone dashboard in Arabic, right to left" /></td>
+  </tr>
+</table>
+
+- **Offline-first desktop app:** Next.js 16 and React 19 inside Electron, SQLite with versioned migrations, verified daily backups and Ed25519-signed updates.
+- **Money that always adds up:** amounts stored as integer fils, installments that sum exactly, and voided payments that keep their receipt number.
+- **Proof:** 188 automated tests, plus lint, type checks and a production build on every push in Windows CI.
+
+<details>
+<summary>Printed receipt</summary>
+<br />
+<img src="./assets/keystone/receipt.jpg" width="70%" alt="Keystone printed payment receipt with the amount written in words" />
+</details>
+
+<sub>The repository is private because it runs a real school. The screenshots use a fictional school, and every name and amount in them is invented.</sub>
 
 ## Selected work
 
@@ -22,53 +45,50 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/ZaidNAlAsali/signaldesk">
-        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/signaldesk/main/docs/screenshots/signaldesk-dashboard.png" alt="SignalDesk bilingual human decision room" />
+        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/signaldesk/main/docs/screenshots/signaldesk-dashboard.png" alt="SignalDesk bilingual decision console" />
       </a>
       <h3><a href="https://github.com/ZaidNAlAsali/signaldesk">SignalDesk</a></h3>
-      <p>Bilingual English/Arabic operations console for policy-grounded triage, with PII redaction, local retrieval, external-provider integration, explicit reviewer decisions, WebSocket updates, and hash-chained audit records. <strong>Portfolio demo; not publicly deployed.</strong></p>
-      <p><strong>Evidence:</strong> the linked <code>main</code> CI run passed 15 backend tests (86.73% coverage), 9 frontend tests, secret scanning, and PostgreSQL Compose; the <a href="https://github.com/ZaidNAlAsali/signaldesk/blob/main/services/api/eval/results/demo-evaluation.json">authored bilingual regression set</a> passes 24/24 cases.</p>
+      <p>Bilingual Arabic/English AI triage console. An LLM sorts requests against retrieved policy, personal data is redacted before any model call, a human approves or overrides every decision, and every step lands in a hash-chained audit log. <strong>Portfolio demo, not publicly deployed.</strong></p>
+      <p><strong>Evidence:</strong> the <a href="https://github.com/ZaidNAlAsali/signaldesk/actions/runs/29211319312">verified main CI run</a> passed 15 backend tests (86.73% coverage) and 9 frontend tests, and the <a href="https://github.com/ZaidNAlAsali/signaldesk/blob/main/services/api/eval/results/demo-evaluation.json">bilingual regression set</a> passes 24/24.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Docker</code></p>
-      <p><a href="https://github.com/ZaidNAlAsali/signaldesk">Repository</a> &middot; <a href="https://github.com/ZaidNAlAsali/signaldesk/releases/tag/v0.3.0">Release 0.3.0</a> &middot; <a href="https://github.com/ZaidNAlAsali/signaldesk/actions/runs/29211319312">Verified main CI</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://differentdesign.pro/">
         <img src="https://differentdesign.pro/og-image.png" alt="Different Design creative studio website, Dubai" />
       </a>
       <h3><a href="https://differentdesign.pro/">Different Design</a> <small>Dubai, UAE</small></h3>
-      <p>Built and deployed the responsive site for a Dubai creative studio, including service presentation, a filterable 17-project gallery, studio and contact sections, and direct email, phone, and WhatsApp paths.</p>
-      <p><strong>Live evidence:</strong> the deployed site is public, responsive, and its metadata identifies <strong>Zaid Nader AlAsali</strong> as developer.</p>
-      <p><a href="https://differentdesign.pro/">Visit the live deployment</a></p>
+      <p>Designed, built and launched a Dubai creative studio's website as its only engineer, from UI, imagery and SEO to domain, hosting and handoff. Web Developer and Technical Lead, Jun 2025 to Feb 2026.</p>
+      <p><strong>Live evidence:</strong> the deployed site's metadata credits <strong>Zaid Nader AlAsali</strong> as developer.</p>
+      <p><code>React</code> <code>Vite</code> <code>Framer Motion</code> <code>Vercel</code></p>
     </td>
   </tr>
-</table>
-
-### [FileNest](https://github.com/ZaidNAlAsali/filenest)
-
-<table>
   <tr>
-    <td width="46%" valign="top">
-      <a href="https://github.com/ZaidNAlAsali/filenest">
-        <img src="https://raw.githubusercontent.com/ZaidNAlAsali/filenest/main/docs/screenshots/filenest-overview.png" alt="FileNest privacy-first Windows file organizer" />
-      </a>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ZaidNAlAsali/ZFileConverter">ZFileConverter</a></h3>
+      <p>Relaunched an open-source Windows Explorer file converter: a rebuilt WPF interface with dark and light themes, PDF to DOCX, output validation and SHA-256-verified updates, shipped as MSI releases.</p>
+      <p><a href="https://github.com/ZaidNAlAsali/ZFileConverter/releases"><img src="https://img.shields.io/github/downloads/ZaidNAlAsali/ZFileConverter/total?label=installer%20downloads&color=1B3358" alt="Installer downloads" /></a> <a href="https://github.com/ZaidNAlAsali/ZFileConverter/releases/latest"><img src="https://img.shields.io/github/v/release/ZaidNAlAsali/ZFileConverter?label=latest&color=1B3358" alt="Latest release" /></a></p>
+      <p><code>C#</code> <code>.NET</code> <code>WPF</code> <code>WiX</code> <code>GitHub Actions</code></p>
     </td>
-    <td width="54%" valign="top">
-      <p>Windows-first local file organizer with selected-folder scanning, streaming BLAKE3 duplicate detection, FTS5 search, move-only cleanup plans, local journaling, and integrity-checked undo.</p>
-      <p><strong>Evidence:</strong> Windows CI passed 20 Rust tests and 8 frontend tests and built the NSIS installer; a <a href="https://github.com/ZaidNAlAsali/filenest/blob/main/docs/benchmarks/windows-10000.json">five-run synthetic scanner microbenchmark</a> measured a median 5,042.35 files/second over 10,000 generated files.</p>
-      <p><code>Rust</code> <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>SQLite</code></p>
-      <p><a href="https://github.com/ZaidNAlAsali/filenest">Repository</a> &middot; <a href="https://github.com/ZaidNAlAsali/filenest/releases/tag/v0.1.1">Unsigned Windows installer</a> &middot; <a href="https://github.com/ZaidNAlAsali/filenest/actions/runs/29206861576">Verified Windows CI</a></p>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ZaidNAlAsali/filenest">FileNest</a></h3>
+      <p>Offline Windows file organizer: streaming BLAKE3 duplicate detection, FTS5 search, move-only cleanup plans and integrity-checked undo.</p>
+      <p><strong>Evidence:</strong> <a href="https://github.com/ZaidNAlAsali/filenest/actions/runs/29206861576">Windows CI</a> passed 20 Rust and 8 frontend tests and built the NSIS installer.</p>
+      <p><code>Rust</code> <code>Tauri 2</code> <code>React</code> <code>SQLite</code></p>
     </td>
   </tr>
 </table>
-
-## Additional release work
-
-**[ZFileConverter](https://github.com/ZaidNAlAsali/ZFileConverter)** — Modernized the [Tichau/FileConverter](https://github.com/Tichau/FileConverter) fork with a redesigned WPF interface and maintained Windows release workflow; the unsigned [v2.3.1 MSI](https://github.com/ZaidNAlAsali/ZFileConverter/releases/tag/v2.3.1) fixes Explorer and installer branding, and its [tagged Windows build](https://github.com/ZaidNAlAsali/ZFileConverter/actions/runs/29520416035) passed.
 
 ## Core stack
 
-TypeScript · React / Next.js / Vite · Python / FastAPI · PostgreSQL / SQLite · Docker · GitHub Actions · Rust / Tauri · C# / WPF
+TypeScript · React / Next.js / Vite · Node.js · Python / FastAPI · C# / .NET / WPF · PostgreSQL / SQLite · Electron / Tauri · Docker · GitHub Actions · OpenAI, Claude and Gemini APIs
+
+## Education and certifications
+
+**BSc Computer Science**, University of Debrecen, Hungary (2026), on a Stipendium Hungaricum government scholarship. Thesis: an AI pipeline that turns text prompts into VR-ready 3D heritage assets (Hunyuan3D 2.0, Blender, Unity, Meta Quest 3).
+
+Microsoft Certified: Azure AI Fundamentals (AI-900) · Information Technology Specialist: Software Development, HTML and CSS · NVIDIA DLI: Fundamentals of Deep Learning, Generative AI with Diffusion Models
 
 <p align="center">
-  <strong>Let&rsquo;s build something useful.</strong><br />
+  <strong>Let's build something useful.</strong><br />
   <a href="mailto:ZaidNaderAlAsali@outlook.com">ZaidNaderAlAsali@outlook.com</a>
 </p>
